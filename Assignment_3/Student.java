@@ -45,7 +45,7 @@ public class Student extends Person implements Payable{
 
     @Override
     public String toString(){
-        return "Student: "+id+"."+name+" "+surname;
+        return "Student: "+getId()+". Name: "+getName()+" Suranme: "+getSurname() + " Position: " + getPosition() + " Gpa:" + getGpa();
     }
     @Override
     public double getPaymentAmount() {

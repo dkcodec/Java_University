@@ -4,12 +4,12 @@ public class Person implements Payable, Comparable<Person>{
     protected static int nextId = 1;  // helper static variable for generating unique IDs
 
     protected int id;
-    private String name;
+    protected String name;
     private String surname;
 
     @Override
     public String toString(){
-        return id+"."+name+" "+surname;
+        return "Id: "+getId()+"."+getName()+" Surname: "+getSurname() + " Position: " + getPosition();
     }
 
     public int getId() {

@@ -2,7 +2,7 @@ package Assignment_3;
 
 public class Employee extends Person{
     private String name;
-    private String surname;
+    public String surname;
     private String position;
     private double salary;
 
@@ -59,7 +59,7 @@ public class Employee extends Person{
 
     @Override
     public String toString(){
-        return "Employee: "+id+"."+name+" "+surname;
+        return "Employee: "+getId()+". Name: "+getName()+" Surname: "+getSurname() + " Position: " + getPosition();
     }
     @Override
     public double getPaymentAmount() {
