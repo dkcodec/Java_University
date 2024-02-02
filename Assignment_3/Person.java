@@ -9,7 +9,7 @@ public class Person implements Payable, Comparable<Person>{
 
     @Override
     public String toString(){
-        return "Id: "+getId()+"."+getName()+" Surname: "+getSurname() + " Position: " + getPosition();
+        return "Id: "+getId()+". Name: "+getName()+" Surname: "+getSurname() + " Position: " + getPosition();
     }
 
     public int getId() {
