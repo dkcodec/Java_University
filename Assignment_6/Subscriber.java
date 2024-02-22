@@ -9,6 +9,7 @@ public class Subscriber implements Observer{
         this.name = name;
     }
 
+    // метод вывода информации для подписчика
     @Override
     public void handleEvent(List<String> vacancies) {
         System.out.println("Dear " + name + "\nWe have some changes in vacancies:\n" + vacancies + "\n=================================\n");
