@@ -22,5 +22,7 @@ public class JobSearch {
 
         // Удаляю вакансию и получаю уведомление о изменении списка вакансий.
         jobSite.removeVacancy("First Java position");
+
+        jobSite.addVacancy("Fourth position");
     }
 }
